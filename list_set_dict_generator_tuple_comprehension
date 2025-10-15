@@ -1,0 +1,44 @@
+nums=[1,2,3,4,5,6,7,8,9,10]
+n1=[n for n in nums]
+expr_lambda=list(map(lambda n:n+10*(n-1),nums))
+expr_compre=list(map(lambda n:n+10*(n-1),nums)) #map and lambda
+odd_lambda=list(filter(lambda n:n%2!=0,nums)) #filter and lambda
+odd_compre=[n for n in nums if n%2!=0]
+even_lambda=list(filter(lambda n:n%2==0,nums))
+even_compre=[n for n in nums if n%2==0]
+nested_comp=[(ord(letter),num,ord(letter)+num) for letter in 'abc' for num in range(3)] #nested for loop inside list comprehension with ord function and nested tuples
+names=['Bruce','Clark','Peter','Logan','Wade']
+heros=['Batman','Superman','Spiderman','Wolverine','Deadpool']
+my_dict={name:hero for name,hero in zip(names,heros) if name != 'Peter'} #zip function and also filtering data
+ns=[0,1,2,4,1,2,6,3,2,4,6,3,2,2,3,5,6,7,7,6,5,7,8,9,6,7,9,8,8,6]
+my_set=set()
+for i in ns:
+  my_set.add(i)
+print("my_set:",my_set)
+set1={i for i in ns} #set comprehension
+print("set1:",set1)
+print("my_dict",my_dict)
+#generator expressions
+def gen_func(nums):
+  for i in nums:
+    yield i+i
+my_gen=gen_func(nums)
+print("my_gen:", end=' ')
+for i in my_gen:
+  print(i, end=' ')
+print()
+gen_comp=(i+1 for i in range(20))  #generator comprehension
+print("gen_comp:", end=' ')
+for j in gen_comp:
+  print(j, end=' ')
+print()
+print(n1)
+print(expr_lambda)
+print(expr_compre)
+print(odd_lambda)
+print(odd_compre)
+print(even_lambda)
+print(even_compre)
+print(nested_comp)
+#for i in n2:
+  #print(i,end=', ')
