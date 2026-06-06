@@ -1,0 +1,18 @@
+Invoice,StockCode,Description,Quantity,InvoiceDate,Price,Customer ID,Country,,
+560241,15056,EDWARDIAN PARASOL NATURAL,6,7/17/11 12:02,5.95,13967,United Kingdom,,"insert into o4 values(560241,'15056','EDWARDIAN PARASOL NATURAL,6,'7/17/11 12:02',5.95,13967,'United Kingdom');"
+560242,22326,ROUND SNACK BOXES SET OF4 WOODLAND,10,7/17/11 12:03,9.95,14659,United Kingdom,,"insert into o4 values(560242,'22326','ROUND SNACK BOXES SET OF4 WOODLAND,10,'7/17/11 12:03',9.95,14659,'United Kingdom');"
+560243,22501,PICNIC BASKET 2X LARGE,1,7/17/11 12:04,9.95,14659,United Kingdom,,"insert into o4 values(560243,'22501','PICNIC BASKET 2X LARGE,1,'7/17/11 12:04',9.95,14659,'United Kingdom');"
+561341,22501,PICNIC BASKET 2X LARGE,5,08-12-2011 02:07,39.95,14659,India,,"insert into o4 values(561341,'22501','PICNIC BASKET 2X LARGE,5,'40885.0881944444',39.95,14659,'India');"
+580972,21328,BALLOONS WRITING SET,15,12/17/11 7:36,27.45,14659,India,,"insert into o4 values(580972,'21328','BALLOONS WRITING SET,15,'12/17/11 7:36',27.45,14659,'India');"
+636370,22326,ROUND SNACK BOXES SET OF4 WOODLAND,24,06-06-2012 08:45,24.95,12583,France,,"insert into o4 values(636370,'22326','ROUND SNACK BOXES SET OF4 WOODLAND,24,'41066.3645833333',24.95,12583,'France');"
+656861,21328,BALLOONS WRITING SET,12,12-01-2012 10:44,1.65,12427,Germany,,"insert into o4 values(656861,'21328','BALLOONS WRITING SET,12,'40920.4472222222',1.65,12427,'Germany');"
+727236,21328,BALLOONS WRITING SET,25,12/27/12 9:27,36.63,12427,Portugal,,"insert into o4 values(727236,'21328','BALLOONS WRITING SET,25,'12/27/12 9:27',36.63,12427,'Portugal');"
+,,,,,,,,,
+Customer_ID,InvoiceDate,Country,CustomerCountryKey,Active,,,,,
+12427,01-12-2012 10:44,Germany,1,y,"insert into cc values(12427,'41244.4472222222','Germany','y');",,,,
+13967,7/17/11 12:02,United Kingdom,2,y,"insert into cc values(13967,'7/17/11 12:02','United Kingdom','y');",,,,
+14659,7/17/11 12:03,United Kingdom,3,y,"insert into cc values(14659,'7/17/11 12:03','United Kingdom','y');",,,,
+14659,7/17/11 12:04,United Kingdom,4,y,"insert into cc values(14659,'7/17/11 12:04','United Kingdom','y');",,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
